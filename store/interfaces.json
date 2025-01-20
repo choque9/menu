@@ -1,5 +1,59 @@
 {
   "menu": {
-    "component": "Menu"
+    "component": "Menu",
+    "composition": "children"
+  },
+  "department": {
+    "component": "Department",
+    "composition": "children",
+    "content": {
+      "properties": {
+        "label": {
+          "title": "editor.label",
+          "type": "string",
+          "default": "Departamento"
+        },
+        "link": {
+          "title": "editor.link",
+          "type": "string",
+          "default": "#"
+        }
+      }
+    }
+  },
+  "category": {
+    "component": "Category",
+    "composition": "children",
+    "content": {
+      "properties": {
+        "label": {
+          "title": "editor.label",
+          "type": "string",
+          "default": "Category"
+        },
+        "link": {
+          "title": "editor.link",
+          "type": "string",
+          "default": "#"
+        }
+      }
+    }
+  },
+  "subCategory": {
+    "component": "SubCategory",
+    "content": {
+      "properties": {
+        "label": {
+          "title": "editor.title",
+          "type": "string",
+          "default": "Subcategory"
+        },
+        "link": {
+          "title": "editor.link",
+          "type": "string",
+          "default": "#"
+        }
+      }
+    }
   }
 }

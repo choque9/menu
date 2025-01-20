@@ -1,4 +1,12 @@
 {
   "editor.menu.title": "Menu",
-  "editor.menu.description": "Menu component"
+  "editor.menu.description": "Menu component",
+  "admin/editor.future-subcategoty.title": "Sub category title",
+  "admin/editor.subcategory.title": "Sub category",
+  "admin/editor.department.title": "Department",
+  "admin/editor.category.title": "Category",
+  "editor.label": "Label",
+  "editor.link": "Link",
+  "editor.menu.label": "Menu",
+  "admin/editor.future-menu.title": "Menú"
 }

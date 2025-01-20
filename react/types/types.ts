@@ -1,17 +1,16 @@
 export interface Subcategory {
-    name: string;
+  label: string
+  link: string
 }
 
 export interface Category {
-    name: string;
-    subcategories: Subcategory[];
+  label: string
+  link: string
+  subcategories: Subcategory[]
 }
 
 export interface MenuType {
-    name: string;
-    categories: Category[];
-}
-
-export interface MobileMenuProps {
-    menu: MenuType[];
+  link: string
+  label: string
+  categories: Category[]
 }

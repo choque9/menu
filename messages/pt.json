@@ -1,4 +1,11 @@
 {
-  "editor.menu.title": "Contagem regressiva",
-  "editor.menu.description": "Componente de contagem regressiva"
+  "editor.menu.title": "Menu",
+  "editor.menu.description": "Menu component",
+  "admin/editor.future-subcategoty.title": "Sub category",
+  "admin/editor.subcategory.title": "Sub category",
+  "admin/editor.department.title": "Department",
+  "admin/editor.category.title": "Department",
+  "editor.label": "Label",
+  "editor.link": "Link",
+  "editor.menu.label": "Menu"
 }
